@@ -1,7 +1,5 @@
 # FFmpeg-livestream-docker
-Docker Application to 24/7 livestream mp3 files from subfolder and static image. Using Docker + Docker Compose + FFmpeg + python 
-
-Welcome to my dockerized YouTube Livestream solution. You can easy host multiple youtube livestreams on your computer in background.
+Welcome to my dockerized YouTube Livestream app. You can easy host multiple youtube livestreams on your computer in background.
 
 
 
