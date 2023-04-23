@@ -15,7 +15,7 @@ Welcome to my dockerized YouTube Livestream app. You can easily host multiple Yo
 
 ## Setup
 1. Ensure you have installed Docker and Docker Compose on your machine.
-2. Clone this repository to your local machine.
+2. Clone this repository to your local machine or server `git@github.com:nokey-54/FFmpeg-livestream-docker.git`
 3. Open `docker-compose.yaml` and add your YouTube API key to line: 8.
 4. Open the `stream01/mp3` folder.
 5. Replace all songs inside with the songs you want to stream. Make sure to follow copyright regulations.
