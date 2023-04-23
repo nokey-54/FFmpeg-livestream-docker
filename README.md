@@ -1,6 +1,9 @@
 # FFmpeg-livestream-docker
 Docker Application to 24/7 livestream mp3 files from subfolder and static image. Using Docker + Docker Compose + FFmpeg + python 
 
+Welcome to my dockerized YouTube Livestream solution. You can easy host multiple youtube livestreams on your computer in background.
+
+
 
 1. Ensure u installed docker and docker compose on your maschine.
 2. Open docker-compose.yaml and add your api key to line: 8
@@ -9,3 +12,11 @@ Docker Application to 24/7 livestream mp3 files from subfolder and static image.
 5. You're done. Open YouTube and create a new livestream.
 6. run "docker-compose --compatibility up -d --build --force-recreate" without the ""
 7. Enjoy stream.
+
+
+
+## TODO
+- Add solution to host multiple streams with current code
+- Extend readme
+- Optimization with .env for lower internet upload rates
+- Add docker guide for windows and mac
