@@ -160,7 +160,5 @@ cython_debug/
 #.idea/
 
 # ignore mp3 and wav files
-*.mp3 
-*.wav
 
 */*.env
