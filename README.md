@@ -20,7 +20,7 @@ Welcome to my dockerized YouTube Livestream app. You can easily host multiple Yo
 4. Open the `stream01/mp3` folder.
 5. Replace all songs inside with the songs you want to stream. Make sure to follow copyright regulations.
 6. Set up a new livestream on YouTube.
-7. Run `docker-compose --compatibility up -d --build --force-recreate` without quotes in your terminal/command prompt.
+7. Run `docker-compose --compatibility up -d --build --force-recreate` in your terminal/command prompt.
 8. Enjoy your livestream!
 
 ## TODO
