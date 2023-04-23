@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  livestream:
+    build:
+      context: ./stream01
+      dockerfile: Dockerfile
+    env_file:
+      - ./.env
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 500M
+    networks:
+      - livestream-net
+networks:
+  livestream-net:
