@@ -9,9 +9,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '0.4'
           memory: 1G
         reservations:
+          cpus: '0.5'
           memory: 500M
     networks:
       - livestream-net
