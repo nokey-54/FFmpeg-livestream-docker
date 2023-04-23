@@ -8,7 +8,6 @@ API_KEY = os.environ.get("API_KEY")
 FOLDER = os.environ.get("FOLDER", "mp3") # replace ls01.png in stream01 folder to replace background
 IMAGE = os.environ.get("IMAGE", "./ls01.png") # replace ls01.png in stream01 folder to replace background
 
-print(API_KEY, FOLDER, IMAGE)
 
 system_dir = os.path.dirname(os.path.realpath(__file__))
 mp3_dir = os.path.join(system_dir, FOLDER)
