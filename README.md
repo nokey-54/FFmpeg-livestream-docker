@@ -1,4 +1,4 @@
-![FFmpeg-livestream-docker](https://user-images.githubusercontent.com/12345678/139441423-6d7b6a57-8a47-4b27-9c9b-5d06af51e5e5.png)
+![FFmpeg-livestream-docker](https://images.unsplash.com/photo-1594394489098-74ac04c0fc2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4170&q=80)
 
 # FFmpeg-livestream-docker
 Welcome to my dockerized YouTube Livestream app. You can easily host multiple YouTube livestreams on your computer in the background. This project uses FFmpeg, the popular multimedia framework, to handle audio and video streams and Docker for simple deployment.
