@@ -1,19 +1,19 @@
 ![FFmpeg-livestream-docker](https://images.unsplash.com/photo-1594394489098-74ac04c0fc2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4170&q=80)
 
 # FFmpeg-livestream-docker
-Welcome to my dockerized YouTube Livestream app. You can easily host multiple YouTube livestreams on your computer in the background. This project uses FFmpeg, the popular multimedia framework, to handle audio and video streams and Docker for simple deployment.
+In this repository you can find an easy to setup python tool to create a 24/7 YouTube Livestream out of mp3 files and a static image.
+This project uses FFmpeg, the popular multimedia framework, to handle audio and video streams, python to execute and optimize runtime and Docker for simple  and secure deployment.
 
-## Status: Working
+## Status: working 🟢 
 
 ## Features
 - Dockerized for easy setup and deployment
-- Support for multiple audio formats
 - Automatic handling of livestreams on YouTube
-- Scalable for multiple streams
+- Scalable for multiple streams (Guide coming soon)
 
 ## Requirements
 1. Docker and Docker Compose installed on your machine.
-2. A YouTube API key.
+2. A YouTube API key. 
 
 ## Setup
 1. Ensure you have installed Docker and Docker Compose on your machine.
@@ -26,12 +26,16 @@ Welcome to my dockerized YouTube Livestream app. You can easily host multiple Yo
 8. Enjoy your livestream!
 
 ## TODO
-- Add a solution to host multiple streams with the current code
-- Extend README with more detailed instructions and examples
-- Optimize with `.env` file for lower internet upload rates
-- Add a Docker guide for Windows and Mac users
+
+### General
 - Add support for more streaming platforms (e.g., Twitch, Facebook)
-- Implement a user-friendly web interface for managing streams
+- Add Health Check Endpoint for Docker Compose
+
+### Guides
+- Add a extended single stream guide
+- Add a Docker guide for Windows and Mac users
+- Add a multiple stream guide
+- Extend README with more detailed instructions and examples
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue to discuss new features or improvements.
