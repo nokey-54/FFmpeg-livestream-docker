@@ -26,9 +26,6 @@ This repository contains a versatile Python tool for setting up a 24/7 YouTube L
 7. Execute `docker-compose --compatibility up -d --build --force-recreate` in your terminal/command prompt
 8. Enjoy your livestream!
 
-## Releases
-You can find the latest stable releases, along with a brief summary of changes, on the [Releases](https://github.com/nokey-54/FFmpeg-livestream-docker/releases) page.
-
 ## TODO
 
 ### General
