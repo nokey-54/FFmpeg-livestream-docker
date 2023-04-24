@@ -1,9 +1,11 @@
 ![FFmpeg-livestream-docker](https://images.unsplash.com/photo-1594394489098-74ac04c0fc2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4170&q=80)
 
 # FFmpeg Livestream Docker
+
+## Description
 This repository contains a versatile Python tool for setting up a 24/7 YouTube Livestream using mp3 files and a static image. The project utilizes FFmpeg, a widely-used multimedia framework for handling audio and video streams, Python for efficient execution and runtime optimization, and Docker for streamlined and secure deployment.
 
-## Status: Operational 🟢
+### status: operational 🟢
 
 ## Features
 - Dockerized for effortless setup and deployment
