@@ -5,7 +5,7 @@ services:
       context: ./stream01
       dockerfile: Dockerfile
     env_file:
-      - ./.env
+      - ./stream01/.env
     deploy:
       resources:
         limits:
